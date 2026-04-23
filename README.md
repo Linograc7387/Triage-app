@@ -79,9 +79,12 @@ No external libraries are required.
 # How to Compile & Run
 Using Terminal
 Navigate to the project folder:
+
 cd path/to/project
 Compile all files:
+
 javac Main.java TriageSystem.java Patient.java
+
 Run the program:
 java Main
 
