@@ -1,11 +1,11 @@
 Triage Priority Simulation System
-Overview
+# Overview
 
 This project simulates a hospital triage system where patients are prioritized based on a calculated score. The system is designed for a disaster scenario where medical resources are limited and not all patients can be treated immediately.
 
 Instead of using a standard queue, the program stores patients in a sorted list and allows flexible ways to choose the order of treatment.
 
-How It Works
+# How It Works
 
 Each patient is assigned a total score based on:
 
@@ -37,27 +37,30 @@ Directional mode:
 Start at a chosen index and move left or right through the list.
 Outward mode:
 Start at a chosen index and alternate outward (left, then right, expanding).
-Data Structure
+
+# Data Structure
 
 The main data structure is a sorted ArrayList of Patient objects.
 
-The system uses:
+# The system uses:
 
 Binary search for insertion position
 A pointer for tracking treatment position
 A direction value for traversal
-Complexity
+
+# Complexity
 Adding a patient: O(n)
 Finding insertion point: O(log n)
 Treating a patient: O(1)
 Traversing list: O(n)
-Limitations
+
+# Limitations
 No real-time score updates after insertion
 Uses linear array shifting for inserts
 Designed for simulation, not production use
 Purpose
 
-The goal of this project is to demonstrate:
+# The goal of this project is to demonstrate:
 
 Priority-based sorting
 Custom data structure design
