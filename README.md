@@ -65,3 +65,33 @@ Purpose
 Priority-based sorting
 Custom data structure design
 Different traversal strategies over ranked data
+
+# Requirements
+Java Version: Java 8 or higher
+Works in:
+IntelliJ IDEA
+Eclipse
+VS Code
+Terminal / command line
+
+No external libraries are required.
+
+# How to Compile & Run
+Using Terminal
+Navigate to the project folder:
+cd path/to/project
+Compile all files:
+javac Main.java TriageSystem.java Patient.java
+Run the program:
+java Main
+
+# Example Usage
+
+When you run the program:
+
+A list of sample patients is created and displayed
+You choose:
+A starting index
+A treatment mode
+The system prints the treatment order
+
